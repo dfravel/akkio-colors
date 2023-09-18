@@ -1,0 +1,29 @@
+.slider-input {
+  .range-input {
+    @apply appearance-none w-64 h-4 bg-gray-200 rounded-full cursor-pointer;
+
+    &::-webkit-slider-thumb {
+      @apply appearance-none h-8 w-8 bg-rose-500 rounded-full transition duration-200 ease-in-out;
+    }
+
+    &::-moz-range-thumb {
+      @apply appearance-none h-6 w-6 bg-rose-500 rounded-full transition duration-200 ease-in-out;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      @apply bg-rose-700;
+    }
+
+    &:focus::-moz-range-thumb {
+      @apply bg-rose-700;
+    }
+  }
+
+  .text-input {
+    @apply block w-24 rounded-2xl border-gray-300 text-sm placeholder-gray-400 shadow focus:border-indigo-300 focus:bg-indigo-50 dark:bg-gray-400 dark:text-gray-800;
+  }
+}
