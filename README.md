@@ -1,6 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/01c3a17d-ec0a-4095-b934-f17a9d112413/deploy-status)](https://app.netlify.com/sites/akkio-color-swatches/deploys)
+
 ### Akkio Technical Challenge - Color Swatches
 
-This is a simple web application that displays a list of color swatches based on saturation and lightness selections by the user.
+This is a simple web application that displays a list of color swatches based on saturation and lightness selections by the user. You can view it online at [https://akkio-color-swatches.netlify.app/](https://akkio-color-swatches.netlify.app/).
 
 ### Technologies Used
 
